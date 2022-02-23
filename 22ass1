@@ -1,0 +1,15 @@
+row=int(input("Enter the number of rows:)) 
+For i in range(row):
+   Print(" "*(row-i)+" *"*(i+1)) 
+For j in range(row-1):
+   Print(" "*(j+2)+" *"*(row-1-j)) 
+Output:Enter the number of row=5
+         *
+       *   *
+     *   *   *
+   *   *   *   *
+ *   *   *   *   *
+   *    *   *   *
+      *    *   *
+         *    *
+            *
